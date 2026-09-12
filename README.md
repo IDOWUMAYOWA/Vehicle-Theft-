@@ -35,6 +35,8 @@ The source is a small star-shaped schema. `stolen_vehicles` is the fact table; `
 
 The gold table flattens all three into one row per stolen vehicle, since a single wide table removes the need for relationship modelling in Power BI.
 
+![Data Model](docs/images/datamodel.png)
+
 ## ETL Pipeline
 
 ### Source Preparation
